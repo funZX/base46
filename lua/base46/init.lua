@@ -19,8 +19,6 @@ local integrations = {
   "devicons",
   "git",
   "lsp",
-  "mason",
-  "nvcheatsheet",
   "nvimtree",
   "statusline",
   "syntax",
