@@ -5,11 +5,6 @@ local M = {
     fg = colors.one_bg2,
     bg = "NONE",
   },
-
-  TelescopeResultsTitle = {
-    fg = colors.black,
-    bg = colors.blue,
-  },
 }
 
 -- for hl groups which need bg = "NONE" only!
@@ -20,11 +15,6 @@ local hl_groups = {
   "NvimTreeNormal",
   "NvimTreeNormalNC",
   "NvimTreeCursorLine",
-  "TelescopeNormal",
-  "TelescopePrompt",
-  "TelescopeResults",
-  "TelescopePromptNormal",
-  "TelescopePromptPrefix",
   "CursorLine",
   "Pmenu",
   "BlinkCmpMenu",
@@ -41,16 +31,6 @@ for _, groups in ipairs(hl_groups) do
     bg = "NONE",
   }
 end
-
-M.TelescopeBorder = {
-  fg = colors.grey,
-  bg = "NONE",
-}
-
-M.TelescopePromptBorder = {
-  fg = colors.grey,
-  bg = "NONE",
-}
 
 M.CmpDocBorder = {
   bg = "none",

@@ -25,7 +25,6 @@ and then read `:h nvui.base46`
 - Mason.nvim
 - Notify.nvim
 - Nvim-tree
-- Telescope.nvim
 - Rainbow-delimiters.nvim
 - Todo.nvim
 - Nvim-treesitter

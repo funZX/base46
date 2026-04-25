@@ -24,7 +24,6 @@ local integrations = {
   "syntax",
   "treesitter",
   "tbline",
-  "telescope",
   "whichkey",
 }
 
