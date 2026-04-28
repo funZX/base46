@@ -19,7 +19,6 @@ local integrations = {
   "devicons",
   "git",
   "lsp",
-  "nvimtree",
   "statusline",
   "syntax",
   "treesitter",
